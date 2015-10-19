@@ -18,6 +18,7 @@ Run "make" in the program directory to compile
 ```
 
 ### Notes:
+```
 The optional output bed3 file specified by --output_bed is the actual interval regions computed by merging all the input varaint files plus the buffer region, all interval regions are limited to [1, CHROM_LEN]
 
 For SNP in VCF file, the region is defined as [POS, POS + len(REF) - 1], plus the buffer region on each side
@@ -27,7 +28,7 @@ For DEL in VCF file, the region is defined as [POS, POS + len(REF) - 1], plus th
 For SNP in MAF file, the region is defined as [START_POS, END_POS], plus the buffer region on each side
 For INS in MAF file, the region is defined as [START_POS, END_POS + len(ALT) - 1], plus the buffer region on each side
 For DEL in MAF file, the region is defined as [START_POS - 1, END_POS], plus the buffer region on each side
-
+```
 
 ### FAQ:
 
