@@ -19,7 +19,7 @@ Run "make" in the program directory to compile
 
 ### Notes:
 ```
-The optional output bed3 file specified by --output_bed is the actual interval regions computed by merging all the input varaint files plus the buffer region, all interval regions are limited to [1, CHROM_LEN]
+The optional output bed3 file specified by --output_bed is the actual interval regions used to intersect with the BAM file, computed by merging all the input varaint files plus the buffer region, all interval regions are limited to [1, CHROM_LEN]
 
 For SNP in VCF file, the region is defined as [POS, POS + len(REF) - 1], plus the buffer region on each side
 For INS in VCF file, the region is defined as [POS, POS + len(ALT) - 1], plus the buffer region on each side
