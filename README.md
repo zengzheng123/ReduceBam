@@ -12,7 +12,7 @@ Run "make" in the program directory to compile
 --input_variant     <string>      Input variant file, support .vcf/.vcf.gz/.maf/.maf.gz format, can be specified multiple times.
 --input_bam         <string>      Input BAM file
 --output_bam        <string>      Output BAM file
---output_bed        <string>      Optional output BED3 file generated from the input VCF/MAF file and the buffer
+--output_bed        <string>      Optional output BED3 file computed from the input VCF/MAF file and the buffer
 --buffer            <int>         Buffer size to be added to each side of the VCF/MAF entry. Default is 0
 --help                            Print command line usage
 ```
