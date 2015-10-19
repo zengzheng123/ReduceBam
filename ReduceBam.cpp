@@ -46,7 +46,7 @@ void printUsage(string msg = "")
     cout << "\t--input_variant               <string>                     Input variant file, support .vcf/.vcf.gz/.maf/.maf.gz format, can be specified multiple times." << endl;
     cout << "\t--input_bam                   <string>                     Input BAM file" << endl;
     cout << "\t--output_bam                  <string>                     Output BAM file" << endl;
-    cout << "\t--output_bed                  <string>                     Optional output BED3 file generated from the input VCF/MAF file and the buffer" << endl;
+    cout << "\t--output_bed                  <string>                     Optional output BED3 file computed from the input VCF/MAF file and the buffer" << endl;
     cout << "\t--buffer                      <int>                        Buffer size to be added to each side of the VCF/MAF entry. Default is 0" << endl;
     cout << "\t--help                                                     Print command line usage" << endl;
     cout << endl;
